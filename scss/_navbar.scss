@@ -7,7 +7,7 @@
   .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: $primary;
+    color:$primary;
     @include sans-serif-font;
     &:focus,
     &:hover {
@@ -21,7 +21,7 @@
         font-size: .9rem;
         font-weight: 700;
         text-transform: uppercase;
-        color: $gray-900;
+        color: $primary;
         &:hover {
           color: $primary;
         }
@@ -42,7 +42,7 @@
       color: fade-out($white, .3);
       &:focus,
       &:hover {
-        color: $white;
+        color: $primary;
       }
     }
     .navbar-nav > li.nav-item > a.nav-link {
@@ -50,9 +50,9 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: fade-out(black, .3);
       &:hover {
-        color: $white;
+        color: $primary;
       }
     }
     &.navbar-shrink {
@@ -67,9 +67,9 @@
       }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: $gray-900;
+        color: black;
         &:hover {
-          color: $primary;
+          color:$primary;
         }
       }
     }
