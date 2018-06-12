@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #d72800;
+  border-color: #ed1c24;
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-  color: #d72800;
+  color: #ed1c24;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #d62800;
+  color: #ed1c24;
 }
 
 h1,
@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #d72800 !important;
+  background-color: #ed1c24 !important;
 }
 
 .bg-dark {
@@ -92,12 +92,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #d72800;
+  color: #ed1c24;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #d62800;
+  color: #ed1c24;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -105,17 +105,17 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #d72800;
+  color: #ed1c24;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #d72800;
+  color: #ed1c24;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #d72800 !important;
+  color: #ed1c24 !important;
   background-color: #fff;
 }
 
@@ -133,7 +133,7 @@ img::-moz-selection {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #d72800;
+    color: #ed1c24;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -144,17 +144,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #d72800;
+    color: #ed1c24;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #d72800;
+    color: #ed1c24;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #d62800;
+    color: #ed1c24;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -162,54 +162,63 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #d72800;
+    color: #ed1c24;
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#bgVid {
+  width: 100%;
+  min-width: 900px;
 }
 
-header.masthead hr {
+.aboutWrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.aboutWrapper .container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.aboutWrapper hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-header.masthead h1 {
+.aboutWrapper h1 {
   font-size: 2rem;
 }
 
-header.masthead p {
+.aboutWrapper p {
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  header.masthead p {
+  .aboutWrapper p {
     font-size: 1.15rem;
   }
 }
 
 @media (min-width: 992px) {
-  header.masthead {
+  .aboutWrapper {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  header.masthead h1 {
+  .aboutWrapper h1 {
     font-size: 3rem;
   }
 }
 
 @media (min-width: 1200px) {
-  header.masthead h1 {
+  .aboutWrapper h1 {
     font-size: 4rem;
   }
 }
@@ -234,7 +243,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(215, 40, 0, 0.9);
+  background: rgba(237, 28, 36, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -282,7 +291,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #d72800 !important;
+  color: #ed1c24 !important;
 }
 
 .btn {
@@ -298,13 +307,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #d72800;
-  border-color: #d72800;
+  background-color: #ed1c24;
+  border-color: #ed1c24;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #be2300 !important;
+  background-color: #de1219 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
