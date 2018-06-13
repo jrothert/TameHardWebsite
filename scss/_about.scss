@@ -3,6 +3,11 @@
   width: 100%;
   min-width:900px;  
 }
+
+.bg-faded {
+    background-color: rgba(188, 188, 188, 0.5);
+}
+
 .aboutWrapper {
     overflow: hidden;
     position: relative;
@@ -16,7 +21,7 @@
         display: flex;
         align-items: center;
     }
-
+    
     hr {
         margin-top: 30px;
         margin-bottom: 30px;

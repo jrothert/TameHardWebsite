@@ -171,6 +171,10 @@ img::-moz-selection {
   min-width: 900px;
 }
 
+.bg-faded {
+  background-color: rgba(188, 188, 188, 0.5);
+}
+
 .aboutWrapper {
   overflow: hidden;
   position: relative;
