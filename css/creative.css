@@ -211,7 +211,6 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   .aboutWrapper {
-    height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
