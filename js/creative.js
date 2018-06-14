@@ -75,12 +75,42 @@
 
 })(jQuery); // End of use strict
 
-var figure = $("#divMetz").hover( hoverDiv, hideVideo );
+var metz = document.getElementById('divMetz');
+var nussbaumer = document.getElementById('divNussbaumer');
+var rothert = document.getElementById('divRothert');
 
-function hoverDiv(e) {
-    document.getElementById('videoMetz').style.visibility = 'visible';
+metz.addEventListener("mouseover", function (event) {
+    showVideo('Metz');
+}, false);
+metz.addEventListener("mouseout", function (event) {
+    showPic('Metz');
+}, false);
+nussbaumer.addEventListener("mouseover", function (event) {
+    showVideo('Nussbaumer');
+}, false);
+nussbaumer.addEventListener("mouseout", function (event) {
+    showPic('Nussbaumer');
+}, false);
+rothert.addEventListener("mouseover", function (event) {
+    showVideo('Rothert');
+}, false);
+rothert.addEventListener("mouseout", function (event) {
+    showPic('Rothert');
+}, false);
+
+
+function showVideo(name) {
+    var video = document.getElementById('video' + name);
+    var pic = document.getElementById('pic' + name);
+    video.style.display = "block";
+    pic.style.display = "none";
 }
 
-function hideVideo(e) {
-  document.getElementById('videoMetz').style.visibility = 'hidden';    
+function showPic(name) {
+    var video = document.getElementById('video' + name);
+    var pic = document.getElementById('pic' + name);
+    video.style.display = "none";
+    pic.style.display = "block";
 }
+
+
