@@ -74,3 +74,13 @@
   });
 
 })(jQuery); // End of use strict
+
+var figure = $("#divMetz").hover( hoverDiv, hideVideo );
+
+function hoverDiv(e) {
+    document.getElementById('videoMetz').style.visibility = 'visible';
+}
+
+function hideVideo(e) {
+  document.getElementById('videoMetz').style.visibility = 'hidden';    
+}
