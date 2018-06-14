@@ -70,6 +70,15 @@ section {
   text-shadow: none;
 }
 
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
 img::selection {
   color: #fff;
   background: transparent;
