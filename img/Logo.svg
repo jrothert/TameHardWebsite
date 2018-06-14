@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="Logo.svg">
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="LogoTameHard.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="376.94858"
-     inkscape:cy="536.98923"
+     inkscape:zoom="0.35"
+     inkscape:cx="375.36605"
+     inkscape:cy="640.28644"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="824"
      inkscape:window-height="982"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -51,75 +51,76 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-87)">
     <ellipse
        id="path10"
-       cx="117.55059"
-       cy="156.23825"
-       rx="54.806545"
-       ry="28.124832"
-       style="fill:#d40000;stroke-width:0.26179928" />
+       cx="148.37732"
+       cy="195.92613"
+       rx="147.319"
+       ry="75.599037"
+       style="fill:#d40000;stroke-width:0.70371169" />
     <ellipse
-       style="fill:#ffffff;stroke-width:0.31501767"
+       style="fill:#ffffff;stroke-width:0.84676182"
        id="path12"
-       cx="117.57794"
-       cy="156.12083"
-       rx="54.448719"
-       ry="27.803362" />
+       cx="148.45082"
+       cy="195.61052"
+       rx="146.35718"
+       ry="74.734932" />
     <ellipse
-       style="fill:#d40000;stroke-width:0.29610017"
+       style="fill:#d40000;stroke-width:0.79591191"
        id="path12-5"
-       cx="117.55059"
-       cy="156.20386"
-       rx="51.613895"
-       ry="25.913481" />
+       cx="148.37732"
+       cy="195.83369"
+       rx="138.73721"
+       ry="69.654968" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.83203697px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47080094"
-       x="101.47095"
-       y="117.90971"
+       style="font-style:normal;font-weight:normal;font-size:50.62017059px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.26550436"
+       x="37.830215"
+       y="157.10631"
        id="text35"
        transform="scale(0.71341397,1.4017107)"><tspan
          sodipodi:role="line"
          id="tspan33"
-         x="101.47095"
-         y="117.90971"
-         style="fill:#ffffff;stroke-width:0.47080094">TAME</tspan></text>
+         x="37.830215"
+         y="157.10631"
+         style="fill:#ffffff;stroke-width:1.26550436">TAME</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.83203697px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.47080094"
-       x="188.8741"
-       y="117.89785"
+       style="font-style:normal;font-weight:normal;font-size:50.62017059px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.26550436"
+       x="272.76831"
+       y="157.07442"
        id="text35-2"
        transform="scale(0.71341398,1.4017107)"><tspan
          sodipodi:role="line"
          id="tspan33-5"
-         x="188.8741"
-         y="117.89785"
-         style="fill:#ffffff;stroke-width:0.47080094">ARD</tspan></text>
+         x="272.76831"
+         y="157.07442"
+         style="fill:#ffffff;stroke-width:1.26550436">ARD</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:49.20152283px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.23003817"
-       x="160.82243"
-       y="123.76212"
+       style="font-style:normal;font-weight:normal;font-size:132.25279236px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.30631995"
+       x="185.18576"
+       y="180.71597"
        id="text57"
-       transform="scale(0.67824824,1.4743864)"><tspan
+       transform="scale(0.67824825,1.4743864)"><tspan
          sodipodi:role="line"
          id="tspan55"
-         x="160.82243"
-         y="123.76212"
-         style="fill:#ffffff;stroke-width:1.23003817">H</tspan></text>
+         x="185.18576"
+         y="180.71597"
+         style="fill:#ffffff;stroke-width:3.30631995">H</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.29306412px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1323266"
-       x="134.5433"
-       y="181.45074"
+       style="font-style:normal;font-weight:normal;font-size:14.22766018px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.35569152"
+       x="204.38187"
+       y="248.98326"
        id="text61"
        transform="scale(1.0656741,0.93837318)"><tspan
          sodipodi:role="line"
          id="tspan59"
-         x="134.5433"
-         y="181.45074"
-         style="fill:#ffffff;stroke-width:0.1323266">GmbH</tspan></text>
+         x="204.38187"
+         y="248.98326"
+         style="fill:#ffffff;stroke-width:0.35569152">GmbH</tspan></text>
   </g>
 </svg>
