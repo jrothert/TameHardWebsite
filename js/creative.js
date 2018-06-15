@@ -112,10 +112,10 @@ function showPic(name) {
     video.style.display = "none";
     pic.style.display = "block";
 }
+[].forEach.call(document.querySelectorAll('img'), function (img) {
+    img.style.display = "inline-block";  
+});
 
-[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
-  img.setAttribute('src', img.getAttribute('data-src'));
-  img.onload = function() {
-    img.removeAttribute('data-src');
-  };
+[].forEach.call(document.querySelectorAll('#bgVid'), function (bg) {
+    bg.style.display = "inline-block";
 });

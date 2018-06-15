@@ -24,7 +24,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img data-src="img/Logo.svg" alt="TameHard GMBH Logo" height="60" /></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="img/Logo.svg" 
+                     alt="TameHard GMBH Logo" 
+                     height="60" />
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -49,7 +53,7 @@
 
     <section class="aboutWrapper" id="about">
         <video autoplay muted loop id="bgVid">
-            <source src="img/videos/bg-hd/bg-hd.webm" type="video/webm"/>
+            <source src="img/videos/bg-hd/bg-hd.webm" type="video/webm" srcset="img/team/video-jerome.webm 480w" />
             <source src="img/videos/bg-hd/bg-hd.mp4" type="video/mp4"/>
         </video>
         <div class="container my-auto text-center">
@@ -95,7 +99,7 @@
           <div class="row no-gutters popup-gallery">
               <div class="col-lg-6 col-sm-6">
                   <a class="portfolio-box" href="img/Screenshots/MpFr33General.jpg">
-                      <img class="img-fluid" src="img/Screenshots/MpFr33General.jpg" alt="General Window Screenshot MpFr33">
+                      <img class="img-fluid" srcset="img/Screenshots/MpFr33General-small.jpg 480w" src="img/Screenshots/img/Screenshots/MpFr33General-small.jpg" alt="General Window Screenshot MpFr33">
                       <div class="portfolio-box-caption ">
                           <div class="portfolio-box-caption-content">
                               <div class="project-name">
@@ -110,7 +114,7 @@
               </div>
               <div class="col-lg-6 col-sm-6">
                   <a class="portfolio-box" href="img/Screenshots/MpFr33WorksAsDesigned.jpg">
-                      <img class="img-fluid" src="img/Screenshots/MpFr33WorksAsDesigned.jpg" alt="General Window Screenshot MpFr33">
+                      <img class="img-fluid" src="img/Screenshots/MpFr33WorksAsDesigned-small.jpg" srcset="img/Screenshots/MpFr33WorksAsDesigned.jpg 481w" alt="General Window Screenshot MpFr33">
                       <div class="portfolio-box-caption ">
                           <div class="portfolio-box-caption-content">
                               <div class="project-name">
@@ -161,58 +165,34 @@
             <div class="col-lg-12 text-left ">
                 <h1 class="section-heading">Webdesign</h1>
             </div>
-            <div class="p-3">
-                Hier finden sie Auszüge aus dem Arbeitsprozess vergangener Projekte:
-            </div>
         </div>
       </div>
         <div class="container-fluid col-lg-10">
-            <div class="row no-gutters  ">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+            <div class="row no-gutters p-3">
+                <div class="col-lg-4 col-sm-6 p-3 text-white">
+                    Hier finden sie Auszüge aus dem Arbeitsprozess vergangener Projekte: (Mockups & Fotos vom Fotoshooting)
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                    <img class="img-fluid" src="img/webdesign/MockupMpfr33.jpg" alt="Mockup for MP3Fr33">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                    <img class="img-fluid" src="img/webdesign/flosee1.jpg" alt="Foto von Flo am See 1">
                 </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img class="img-fluid" src="img/webdesign/flosee2.jpg" alt="Foto von Flo am See 2">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img class="img-fluid" src="img/webdesign/samuelsee1.jpg" alt="Foto von Samuel am See 1">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img class="img-fluid" src="img/webdesign/samuelsee2.jpg" alt="Foto von Samuel am See 2">
+                </div>
+            </div>
+            <div class="text-center p-2">
+                <div class="text-white">
+                    Initial Design
+                </div>
+                <img src="img/webdesign/fisrstmockup.png" alt="Erstes Mockup der Seite"/>
             </div>
         </div>
     </section>
@@ -226,9 +206,9 @@
               <div class="col-lg-3 col-md-6 mx-auto" id="divMetz">
                 <div>
                   <img src="img/team/retardboii.jpg" alt="Portrait Florian" id="picMetz">
-                  <video id="videoMetz" autoplay loop muted style="display: none">
-                      <source src="img/team/video-florian.webm" type="video/webm" />
-                      <source src="img/team/video-florian.mp4" type="video/mp4" />
+                  <video id="videoMetz" autoplay loop muted>
+                      <source src="img/videos/team/video-florian.webm" type="video/webm" />
+                      <source src="img/videos/team/video-florian.mp4" type="video/mp4" />
                   </video>
                 </div>
                   <div class="border p-2">
@@ -239,9 +219,9 @@
                 <div class="col-lg-3 col-sm-3 mx-auto" id="divNussbaumer">
                   <div>
                     <img src="img/team/snussbaumer.png" alt="Portrait Samuel" id="picNussbaumer">
-                    <video id="videoNussbaumer" autoplay loop muted style="display: none">
-                        <source src="img/team/video-samuel.webm" type="video/webm" />
-                        <source src="img/team/video-samuel.mp4" type="video/mp4" />
+                    <video id="videoNussbaumer" autoplay loop muted>
+                        <source src="img/videos/team/video-samuel.webm" type="video/webm" />
+                        <source src="img/videos/team/video-samuel.mp4" type="video/mp4" />
                     </video>
                   </div>
                   <div class="border p-2">
@@ -252,9 +232,9 @@
                 <div class="col-lg-3 col-md-6 mx-auto" id="divRothert">
                   <div>
                     <img src="img/team/jrothert.png" alt="Portrait Jerome" id="picRothert">
-                    <video id="videoRothert" autoplay loop muted style="display: none">
-                        <source src="img/team/video-jerome.webm" type="video/webm" />
-                        <source src="img/team/video-jerome.mp4" type="video/mp4" />
+                    <video id="videoRothert" autoplay loop muted>
+                        <source src="img/videos/team/video-jerome.webm" type="video/webm" />
+                        <source src="img/videos/team/video-jerome.mp4" type="video/mp4" />
                     </video>
                   </div>
                   <div class="border p-2">
